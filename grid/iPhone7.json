@@ -1,0 +1,33 @@
+{
+  "capabilities":
+  [
+    {
+      "browserName": "iPhone 7",
+      "version":"11.2",
+      "marionette": true,
+      "maxInstances": 1,
+      "platform":"mac",
+      "platformName": "iOS",
+      "deviceName":"iPhone 7",
+      "seleniumProtocol": "WebDriver"
+    }
+  ],
+  "proxy": "org.openqa.grid.selenium.proxy.DefaultRemoteProxy",
+  "url":"http://10.206.22.95:4723/wd/hub",
+  "port": 4723,
+  "maxSession": 1,
+  "register": true,
+  "registerCycle": 5000,
+  "hub": "http://10.206.22.95:4455",
+  "hubPort":4455,
+  "hubHost":"10.206.22.95",
+  "nodeStatusCheckTimeout": 5000,
+  "nodePolling": 5000,
+  "role": "node",
+  "unregisterIfStillDownAfter": 60000,
+  "downPollingLimit": 2,
+  "debug": false,
+  "servlets" : [],
+  "withoutServlets": [],
+  "custom": {}
+}
