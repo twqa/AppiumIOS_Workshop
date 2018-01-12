@@ -4,30 +4,18 @@
     {
       "browserName": "iPhone 8",
       "version":"11.2",
-      "marionette": true,
       "maxInstances": 1,
-      "platform":"mac",
-      "platformName": "iOS",
-      "deviceName":"iPhone 8",
-      "seleniumProtocol": "WebDriver"
+      "platformName": "iOS"
     }
   ],
   "proxy": "org.openqa.grid.selenium.proxy.DefaultRemoteProxy",
-  "url":"http://10.206.22.95:4724/wd/hub",
+  "url":"http://10.206.22.177:4724/wd/hub",
   "port": 4724,
   "maxSession": 1,
   "register": true,
   "registerCycle": 5000,
-  "hub": "http://10.206.22.95:4455",
-  "hubPort":4455,
-  "hubHost":"10.206.22.95",
-  "nodeStatusCheckTimeout": 5000,
-  "nodePolling": 5000,
-  "role": "node",
-  "unregisterIfStillDownAfter": 60000,
-  "downPollingLimit": 2,
-  "debug": false,
-  "servlets" : [],
-  "withoutServlets": [],
-  "custom": {}
+  "hubPort":4444,
+  "hubHost":"10.206.22.177",
+  "cleanUpCycle":2000,
+  "timeout":30000
 }
