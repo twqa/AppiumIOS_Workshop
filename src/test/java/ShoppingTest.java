@@ -31,11 +31,6 @@ public class ShoppingTest {
         capabilities.setCapability("platformVersion", "11.2");
         capabilities.setCapability("deviceName", Device_name);
         capabilities.setCapability("wdaLocalPort", wda);
-//        if (Device_name.equalsIgnoreCase("iPhone 7")){
-//            capabilities.setCapability("wdaLocalPort", "8100");
-//        }else if(Device_name.equalsIgnoreCase("iPhone 8")){
-//            capabilities.setCapability("wdaLocalPort", "8200");
-//        }
         driver = new IOSDriver(new URL("http://localhost:" + port + "/wd/hub"), capabilities);
         driver.manage().timeouts().implicitlyWait(25, TimeUnit.SECONDS);
     }

@@ -7,7 +7,6 @@
         <parameter name="port" value="4723"></parameter>
         <parameter name="Device_name" value="iPhone 7"></parameter>
         <parameter name="wda" value="8100"></parameter>
-        <!--<parameter name="Device_ID" value="6E81935F-D069-4830-9738-06252C9D1CC1"></parameter>-->
         <classes>
             <class name="ShoppingTest">
                 <methods>
@@ -20,7 +19,6 @@
         <parameter name="port" value="4724"></parameter>
         <parameter name="Device_name" value="iPhone 8"></parameter>
         <parameter name="wda" value="8200"></parameter>
-        <!--<parameter name="Device_ID" value="3A29CEB0-E948-45FC-9A43-7E2C6ECAB732"></parameter>-->
         <classes>
             <class name="ShoppingTest">
                 <methods>
