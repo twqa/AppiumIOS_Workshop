@@ -28,7 +28,7 @@ public class ShoppingTest {
 
         capabilities.setCapability("app", "/Users/chenli/Documents/Projects/IOS/shoppingIOS.app");
         capabilities.setCapability("platformName", "iOS");
-        capabilities.setCapability("platformVersion", "11.2");
+        capabilities.setCapability("platformVersion", "11.4");
         capabilities.setCapability("deviceName", Device_name);
         capabilities.setCapability("wdaLocalPort", wda);
         driver = new IOSDriver(new URL("http://localhost:" + port + "/wd/hub"), capabilities);
